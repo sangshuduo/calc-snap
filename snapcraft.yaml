@@ -1,0 +1,16 @@
+name: calculator
+version: 1
+vendor: Shuduo Sang <shuduo.sang@canonical.com>
+binaries:
+  calc:
+    exec: ./usr/bin/calc
+summary: a clone of command line calculator utility of traditional Linux
+description: a clone of command line calculator utility of traditional Linux
+icon: icon.png
+
+parts:
+  calc :
+    plugin: copy
+    files:
+      calc: usr/bin/calc
+
